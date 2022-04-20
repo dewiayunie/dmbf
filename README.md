@@ -1,20 +1,26 @@
 # Info nih ajg
 script ngocok 18+
+ytta aja ,bang jangan di dec ajg tinggal pakai aja
 
 # cara install nya
-$pkg update && pkg upgrade
+pkg install python
 
-$pkg install git
+pkg install git
 
-$pkg install python -y
+pip install requests
 
-$git clone https://github.com/dewiayunie/dmbf
+pip install bs4
 
-$cd dmbf
+pip install requests
 
-$git pull
+pip install futures
 
-$python dmbf.py
+pip install rich
 
-Coming Soon Kntl
+pip install mechanize
 
+git clone https://github.com/dewiayunie/dmbf
+
+cd dmbf
+
+python dmbf.py
